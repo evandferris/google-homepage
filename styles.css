@@ -1,6 +1,9 @@
 body {
 
     font: arial;
+    overflow: hidden;
+    
+    
 }
 
 .img{
@@ -41,11 +44,15 @@ button{
     border: none;
 }
 
-button:hover{
+#btnsubmit:hover{
 
     border: 1px solid #f8f9fa;
 }
 
+#btnifl:hover{
+
+    border: 1px solid #f8f9fa;
+}
 #navbar { 
 
     width: 100%;
@@ -80,27 +87,46 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-#about {
+
+
+.navleft {
 
     float:left;
     margin-right: 15px;
     margin-left: 0px;
 }
 
-#store {
+.navright {
 
-    margin: ;
-    float: left;
 
+    float:right;
+    margin-right:15px;
+}
+#prof {
+    margin-left: 0px;
+    position: relative;
+    top: -22px;
+    border-radius: 50%;
+    padding-left: 0px;
+    transform: scale(0.45);
 }
 
+#logo {
+    
+  position: relative;
+  width: 20px;
+  top: -3px;
+  opacity: 0.75;
+  padding-left: 0px;
+}
 #gmail {
 
 
     float:right;
+    margin-right: 15px;
 }
+
 #images {
     margin-right: 15px;
     float:right;
 }
-
